@@ -1,0 +1,234 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:gray;
+    color:#ffffff;
+    width: 100%;
+}
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(NETFLIX_BACKGROUND.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+img.net
+{
+    
+    height: 100px;
+    cursor: pointer;
+    
+    
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-between;
+    
+}
+nav button
+{
+    background-color: #db0001;
+    outline: 0px;
+    border: 0px;
+    color: #ffffff;
+    width: 75.59px;
+    height: 32px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+select
+{
+    background-color: transparent;
+    height: 32px;
+    width:125px;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 15px;
+}
+option
+{
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.title
+{
+    display: inline;
+    text-align: center;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+}
+.page
+{
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    margin-top: 10px;
+}
+.page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #000;
+  }
+  
+  .image {
+    margin-left: 40rem;
+    margin-bottom: 100px; /* You can adjust this value to control the distance between the image and the bottom of the page */
+  }
+  .layout {
+    width: 100%;
+    height: 100vh;
+  
+    display: flex;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .grow1 
+  { 
+    flex-grow: 1;
+    display: flex;
+    align-items:center;
+     
+}
+  .shrink0 { flex-shrink: 0; }
+  .layout {
+    width: 100%;
+  
+    display: flex;
+    gap: 16px;
+  }
+  .layout3{
+    width: 1366px;
+    height: 768px;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-wrap: wrap-reverse;
+  
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .grow1 { display: flex
+    ;flex-direction: column; }
+    
+
+.grow
+{ flex-grow: 1; }
+.groww 
+{ flex-grow: 2; }
+;
+.layout5{
+    width: 100%;
+    height: 100vh;
+  
+    display: flex;
+    gap: 16px;
+
+  }
+  .layout6{
+    width: 100%;
+    height: 600px;
+    padding: 60px 60px 60px 60px;
+    font-size: 20px;
+    color: #FFFFFFB3;
+  }
+  
+.layout6 p
+{
+  margin-bottom: 40px;
+  text-decoration: underline;
+  
+}
+.onee ul
+{
+  margin-right: 70px;
+  cursor: pointer;
+}
+.paste-button {
+  position: relative;
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+  background-color: #000;
+  color: #FFFFFFB3;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #FFFFFFB3;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  font-size: 13px;
+  position: absolute;
+  z-index: 1;
+  min-width: 200px;
+  background-color: #212121;
+  border: 2px solid #FFFFFFB3;
+  border-radius: 0px 15px 15px 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: #FFFFFFB3;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  transition: 0.1s;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+.dropdown-content a:focus {
+  background-color: #212121;
+  color: #FFFFFFB3;
+}
+
+.dropdown-content #top:hover {
+  border-radius: 0px 13px 0px 0px;
+}
+
+.dropdown-content #bottom:hover {
+  border-radius: 0px 0px 13px 13px;
+}
+
+.paste-button:hover button {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.paste-button:hover .dropdown-content {
+  display: block;
+}
